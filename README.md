@@ -59,4 +59,21 @@ Windows,Linux,MaxOSで選べた。一定メモリだけが一か月で無料で�
 
 * 試してみたこと
   1. Actionsを選択
-![alt text](./images/image.png)
+  ![alt text](./images/image1.png)
+  ![alt text](./images/image2.png)
+  ![alt text](./images/image3.png)
+  ![alt text](./images/image4.png)
+  ![alt text](./images/image5.png)
+
+
+```bash:download
+# Download the latest runner package
+curl -o actions-runner-linux-x64-2.320.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.320.0/actions-runner-linux-x64-2.320.0.tar.gz
+```
+
+```bash:configure
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/wassawa1/TEST_Github_Action --token AMDHRYFZNUUVFRLSTGQPOX3HD65LS
+# Last step, run it!
+$ ./run.sh
+```
