@@ -56,3 +56,7 @@ GitHub Actions ではRunnerが必要。これは、GitHubが提供するワー�
 
 おそらくWorkflowのテストを動かすためのサーバー上の環境を指しているらしい。
 Windows,Linux,MaxOSで選べた。一定メモリだけが一か月で無料で使え、一定以上は有料というサービスらしい。
+
+* 試してみたこと
+  1. Actionsを選択
+![alt text](./images/image.png)
