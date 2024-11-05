@@ -17,4 +17,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run tests
-        run: pytest --cov=sample tests/
+        run: pytest | tee pytest-coverage.txt
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
