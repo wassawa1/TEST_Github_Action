@@ -1,6 +1,4 @@
 name: Python Package Test
-on:
-  push:
 env:
   PYTHON_VERSION: '3.12'
 jobs:
